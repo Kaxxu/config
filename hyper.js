@@ -149,5 +149,6 @@ module.exports = {
     "pane:prev": "ctrl+shift+tab",
     "pane:splitVertical": "ctrl+shift+e",
     "pane:splitHorizontal": "ctrl+shift+o",
+    "pane:close": "ctrl+shift+w",
   },
 };
