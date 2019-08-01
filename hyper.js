@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: 'Consolas, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -110,7 +110,7 @@ module.exports = {
     shellArgs: ['~'],
 
     // for environment variables
-    env: {},
+    env: {TERM:'msys'},
 
     // set to `false` for no bell
     bell: 'SOUND',
