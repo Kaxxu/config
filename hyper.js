@@ -130,7 +130,6 @@ module.exports = {
 
     // for advanced config flags please refer to https://hyper.is/#cfg
     paneNavigation: {
-    // power-shell/cmd: hyper i hyper-pane
       debug: false,
       hotkeys: {
         navigation: {
@@ -171,9 +170,11 @@ module.exports = {
 
   keymaps: {
     "pane:next": "ctrl+tab",
-    "pane:prev": "ctrl+shift+tab",
+    //"pane:prev": "ctrl+shift+tab",
     "pane:splitVertical": "ctrl+shift+e",
     "pane:splitHorizontal": "ctrl+shift+o",
     "pane:close": "ctrl+shift+w",
+    "tab:new": "ctrl+shift+t",
+    "tab:next": "ctrl+shift+tab"
   },
 };
