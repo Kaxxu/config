@@ -10,7 +10,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="eastwood"
-#ZSH_THEME="frisk"
+#ZSH_THEME="sorin"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -43,7 +43,7 @@ ZSH_THEME="eastwood"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -72,13 +72,21 @@ ZSH_THEME="eastwood"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 complete -C '/usr/local/bin/aws_completer' aws
-export PATH=/usr/local/aws/bin:$PATH
+export PATH=/usr/local/aws/bin:/home/$USER/.local/bin:$PATH
+source <(kubectl completion zsh)
+export PATH="$HOME/.tfenv/bin:$PATH"
+export PATH=$PATH:$HOME/.tfenv/bin
+
+# For Windows 10 WSL2
+#export BROWSER='/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe'
+
+#export PATH=/home/kax/.local/bin:%PATH
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -107,4 +115,5 @@ alias ll='ls -alh'
 alias fuckit='shutdown -h now'
 alias fixit='reboot'
 alias krakow='curl wttr.in/krakow'
+#alias sq="ssh-agent bash -c 'ssh-add ~/.ssh/KEYNAME; $1'"
 
