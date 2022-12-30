@@ -9,7 +9,10 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="eastwood"
+#ZSH_THEME="eastwood"
+ZSH_THEME="fletcherm"
+#ZSH_THEME="jnrowe"
+#ZSH_THEME="philips"
 #ZSH_THEME="sorin"
 
 # Set list of themes to pick from when loading at random
@@ -77,9 +80,12 @@ plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+# Complete
 complete -C '/usr/local/bin/aws_completer' aws
-export PATH=/usr/local/aws/bin:/home/$USER/.local/bin:$PATH
 source <(kubectl completion zsh)
+
+# Exports
+export PATH=/usr/local/aws/bin:/home/$USER/.local/bin:$PATH
 export PATH="$HOME/.tfenv/bin:$PATH"
 export PATH=$PATH:$HOME/.tfenv/bin
 
@@ -111,9 +117,12 @@ export PATH=$PATH:$HOME/.tfenv/bin
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias ll='ls -alh'
 alias fuckit='shutdown -h now'
 alias fixit='reboot'
 alias krakow='curl wttr.in/krakow'
-#alias sq="ssh-agent bash -c 'ssh-add ~/.ssh/KEYNAME; $1'"
-
+alias awslp='aws configure list-profiles'
+alias awsgi='aws sts get-caller-identity --output table'
+alias awsts='aws s3 ls'
+alias awslc='aws configure list'
