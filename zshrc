@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+cd ~
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -10,8 +11,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="eastwood"
-ZSH_THEME="fletcherm"
-#ZSH_THEME="jnrowe"
+#ZSH_THEME="fletcherm"
+ZSH_THEME="jnrowe"
 #ZSH_THEME="philips"
 #ZSH_THEME="sorin"
 
@@ -75,17 +76,15 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions aws)
+SHOW_AWS_PROMPT=true
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-# Complete
 complete -C '/usr/local/bin/aws_completer' aws
-source <(kubectl completion zsh)
-
-# Exports
 export PATH=/usr/local/aws/bin:/home/$USER/.local/bin:$PATH
+source <(kubectl completion zsh)
 export PATH="$HOME/.tfenv/bin:$PATH"
 export PATH=$PATH:$HOME/.tfenv/bin
 
@@ -117,7 +116,6 @@ export PATH=$PATH:$HOME/.tfenv/bin
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
 alias ll='ls -alh'
 alias fuckit='shutdown -h now'
 alias fixit='reboot'
