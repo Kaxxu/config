@@ -77,7 +77,7 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions aws)
-SHOW_AWS_PROMPT=true
+SHOW_AWS_PROMPT="true"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -90,10 +90,8 @@ export PATH=$PATH:$HOME/.tfenv/bin
 
 # For Windows 10 WSL2
 #export BROWSER='/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe'
-
 #export PATH=/home/kax/.local/bin:%PATH
-
-# export MANPATH="/usr/local/man:$MANPATH"
+#export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
