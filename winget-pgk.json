@@ -5,172 +5,133 @@
     {
       "Packages": [
         {
-          "Id": "Google.Chrome",
-          "Version": "108.0.5359.125"
+          "Id": "Google.Chrome"
         },
         {
-          "Id": "Microsoft.VisualStudioCode",
-          "Version": "1.74.2"
+          "Id": "Microsoft.VisualStudioCode"
         },
         {
-          "Id": "OBSProject.OBSStudio",
-          "Version": "28.1.2"
+          "Id": "OBSProject.OBSStudio"
         },
         {
-          "Id": "Opera.Opera",
-          "Version": "90.0.4480.107"
+          "Id": "Opera.Opera"
         },
         {
-          "Id": "GIMP.GIMP",
-          "Version": "2.10.32"
+          "Id": "GIMP.GIMP"
         },
         {
-          "Id": "VideoLAN.VLC",
-          "Version": "3.0.18"
+          "Id": "VideoLAN.VLC"
         },
         {
-          "Id": "Zoom.Zoom",
-          "Version": "5.12.10137"
+          "Id": "Zoom.Zoom"
         },
         {
-          "Id": "Discord.Discord",
-          "Version": "1.0.9008"
+          "Id": "Discord.Discord"
         },
         {
-          "Id": "Microsoft.WindowsTerminal",
-          "Version": "1.15.2874.0"
+          "Id": "Microsoft.WindowsTerminal"
         },
         {
-          "Id": "GitHub.Atom",
-          "Version": "1.60.0"
+          "Id": "GitHub.Atom"
         },
         {
-          "Id": "7zip.7zip",
-          "Version": "22.01"
+          "Id": "7zip.7zip"
         },
         {
-          "Id": "angryziber.AngryIPScanner",
-          "Version": "3.8.2"
+          "Id": "angryziber.AngryIPScanner"
         },
         {
-          "Id": "Audacity.Audacity",
-          "Version": "3.2.2"
+          "Id": "Audacity.Audacity"
         },
         {
-          "Id": "Cisco.CiscoWebexMeetings",
-          "Version": "42.4.1.12"
+          "Id": "Cisco.CiscoWebexMeetings"
         },
         {
-          "Id": "Eugeny.Tabby",
-          "Version": "1.0.187"
+          "Id": "Eugeny.Tabby"
         },
         {
-          "Id": "Docker.DockerDesktop",
-          "Version": "4.15.0"
+          "Id": "Docker.DockerDesktop"
         },
         {
-          "Id": "Valve.Steam",
-          "Version": "2.10.91.91"
+          "Id": "Valve.Steam"
         },
         {
-          "Id": "DominikReichl.KeePass",
-          "Version": "2.52.0"
+          "Id": "DominikReichl.KeePass"
         },
         {
-          "Id": "JetBrains.Toolbox",
-          "Version": "1.27.2.13801"
+          "Id": "JetBrains.Toolbox"
         },
         {
-          "Id": "Malwarebytes.Malwarebytes",
-          "Version": "4.5.19.229"
+          "Id": "Malwarebytes.Malwarebytes"
         },
         {
-          "Id": "ALCPU.CoreTemp",
-          "Version": "1.17.1"
+          "Id": "ALCPU.CoreTemp"
         },
         {
-          "Id": "Spotify.Spotify",
-          "Version": "1.2.0.1165.gabf054ab"
+          "Id": "Spotify.Spotify"
         },
         {
-          "Id": "SlackTechnologies.Slack",
-          "Version": "4.28.184"
+          "Id": "SlackTechnologies.Slack"
         },
         {
-          "Id": "Mozilla.Firefox",
-          "Version": "108.0.1"
+          "Id": "Mozilla.Firefox"
         },
         {
-          "Id": "Google.Drive",
-          "Version": "68.0.2.0"
+          "Id": "Google.Drive"
         },
         {
-          "Id": "Oracle.VirtualBox",
-          "Version": "6.1.40"
+          "Id": "Oracle.VirtualBox"
         },
         {
-          "Id": "Mojang.MinecraftLauncher",
-          "Version": "2.0.0.0"
+          "Id": "Mojang.MinecraftLauncher"
         },
         {
-          "Id": "Vercel.Hyper",
-          "Version": "3.3.0"
+          "Id": "Vercel.Hyper"
         },
         {
-          "Id": "CodecGuide.K-LiteCodecPack.Full",
-          "Version": "17.3.5"
+          "Id": "CodecGuide.K-LiteCodecPack.Full"
         },
         {
-          "Id": "Logitech.LGS",
-          "Version": "9.04.28"
+          "Id": "Logitech.LGS"
         },
         {
-          "Id": "TheDocumentFoundation.LibreOffice",
-          "Version": "7.4.3.2"
+          "Id": "TheDocumentFoundation.LibreOffice"
         },
         {
-          "Id": "PeterPawlowski.foobar2000",
-          "Version": "1.6.14"
+          "Id": "PeterPawlowski.foobar2000"
         },
         {
-          "Id": "Canonical.Ubuntu.2204",
-          "Version": "2204.0.10.0"
+          "Id": "Canonical.Ubuntu.2204"
         },
         {
-          "Id": "Notepad++.Notepad++",
-          "Version": "8.4.8"
+          "Id": "Notepad++.Notepad++"
         },
         {
-          "Id": "qBittorrent.qBittorrent",
-          "Version": "4.4.5"
+          "Id": "qBittorrent.qBittorrent"
         },
         {
-          "Id": "Overwolf.CurseForge",
-          "Version": "0.215.2-7498"
+          "Id": "Overwolf.CurseForge"
         },
         {
-          "Id": "Olivia.VIA",
-          "Version": "2.0.5.0"
+          "Id": "Olivia.VIA"
         },
         {
-          "Id": "Adobe.Acrobat.Reader.64-bit",
-          "Version": "22.003.20258"
+          "Id": "Adobe.Acrobat.Reader.64-bit"
         },
         {
-          "Id": "GOG.Galaxy",
-          "Version": "2.0.55.99"
+          "Id": "GOG.Galaxy"
         },
         {
-          "Id": "OpenShot.OpenShot",
-          "Version": "3.0.0"
+          "Id": "OpenShot.OpenShot"
         },
         {
-          "Id": "Microsoft.Teams",
-          "Version": "1.5.00.28361"
+          "Id": "Microsoft.Teams"
         },
         {
-          "Id": "JAMSoftware.TreeSize.Free",
-          "Version": "4.6.3"
+          "Id": "JAMSoftware.TreeSize.Free"
+        },
+        {
+          "Id": "IrfanSkiljan.IrfanView"
         }
       ],
       "SourceDetails": {
