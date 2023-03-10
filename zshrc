@@ -87,6 +87,7 @@ export PATH=/usr/local/aws/bin:/home/$USER/.local/bin:$PATH
 source <(kubectl completion zsh)
 export PATH="$HOME/.tfenv/bin:$PATH"
 export PATH=$PATH:$HOME/.tfenv/bin
+export PATH=$PATH:$HOME/bin
 
 # For Windows 10 WSL2
 #export BROWSER='/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe'
