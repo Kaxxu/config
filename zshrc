@@ -13,6 +13,7 @@ cd ~
 #ZSH_THEME="eastwood"
 #ZSH_THEME="fletcherm"
 ZSH_THEME="jnrowe"
+#ZSH_THEME="pygmalion"
 #ZSH_THEME="philips"
 #ZSH_THEME="sorin"
 
