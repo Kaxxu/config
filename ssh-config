@@ -1,0 +1,37 @@
+Include ~/.ssh/config.d/*
+
+Host *
+        ServerAliveInterval 300
+        StrictHostKeyChecking no
+#       HashKnownHosts          no
+#       GSSAPIAuthentication    no
+
+#########################################################
+#                       TEMPLATE                        #
+#########################################################
+#
+#Host NAME
+#       User USER
+#       Hostname IP
+#       Port 22
+#       ProxyCommand ssh -q -w %h:%p jump_host
+#       IdentityFile ~/.ssh/id_rsa
+#
+#########################################################
+#                       CodeCommit                      #
+#########################################################
+#
+#Host codecommit.AWS_REGION.amazonaws.com
+#  User SSH_KEY_ID
+#  IdentityFile ~/.ssh/codecommit_rsa
+#
+#########################################################
+#                       AWS Session Manager             #
+#########################################################
+#
+#Host SSM
+#    User ec2-user
+#    StrictHostKeyChecking no
+#    ProxyCommand bash -c "aws ssm start-session --target $(aws ec2 describe-instances --filters 'Name=tag:Name,Values=SSM' --filters "Name=tag:Environment,Values=Priv" --output text --query 'Reservations[*].Instances[*].InstanceId') --document-name AWS-StartSSHSession --parameters 'portNumber=%p'"
+#
+#########################################################

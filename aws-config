@@ -1,0 +1,11 @@
+###############
+# AWS CLI SSO #
+###############
+
+[profile NAME]
+sso_start_url = https://ORG_NAME.awsapps.com/start
+sso_region = eu-west-1
+sso_account_id = ACC_ID
+sso_role_name = AWSAdministratorAccess
+region = eu-west-1
+output = json

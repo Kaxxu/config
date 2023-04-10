@@ -77,7 +77,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions aws jump)
+plugins=(git zsh-autosuggestions colored-man-pages aws jump)
 SHOW_AWS_PROMPT="true"
 
 source $ZSH/oh-my-zsh.sh
@@ -92,7 +92,7 @@ export PATH=$PATH:$HOME/bin
 
 # For Windows 10 WSL2
 #export BROWSER='/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe'
-#export PATH=/home/kax/.local/bin:%PATH
+#export PATH=$HOME/.local/bin:%PATH
 #export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -113,16 +113,16 @@ export PATH=$PATH:$HOME/bin
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+## Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll='ls -alh'
+alias jm='jump'
+alias jl='ls -m ~/.marks'
 alias fuckit='shutdown -h now'
 alias fixit='reboot'
 alias krakow='curl wttr.in/krakow'
-alias awslp='aws configure list-profiles'
-alias awsgi='aws sts get-caller-identity --output table'
-alias awsts='aws s3 ls'
-alias awslc='aws configure list'
-alias jm='jump'
-alias jl='ls -m ~/.marks'
+# alias awslp='aws configure list-profiles'
+# alias awsgi='aws sts get-caller-identity --output table'
+# alias awsts='aws s3 ls'
+# alias awslc='aws configure list'
