@@ -127,3 +127,7 @@ alias tfd='terraform-docs markdown table --output-file README.md .'
 # alias awsgi='aws sts get-caller-identity --output table'
 # alias awsts='aws s3 ls'
 # alias awslc='aws configure list'
+
+function asd { export AWS_CONFIG_FILE=~/.aws/$1 }
+#export -f asd
+alias asdc='echo $AWS_CONFIG_FILE'
